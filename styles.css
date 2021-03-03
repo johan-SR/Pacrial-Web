@@ -51,8 +51,8 @@ header{
     border-radius: 30px;
     box-shadow: 10px 0 24px rgba(0, 0, 0, 0.7);
 }
-#container .wrapper{
-    padding: 0px 0px 0px 40px;
+#container .mainView{
+    padding: 1px 0px 0px 40px;
     background: url("Imagenes/onda.png") 0 0 no-repeat;
     
 }
@@ -82,11 +82,13 @@ header{
 }
 .contenido-imagen{
     width: 490px;
-
     display: inline-block;
+    z-index: -1;
+    
 }
 .contenido-imagen img {
     width: 490px;
+    
 }
 .titulo {
     color: var(--cafe);
@@ -105,20 +107,32 @@ header{
 }
 .texto {
     font-size: 8pt;
-    width: 210px;
-    text-align: center;
+    width: 228px;
+    text-align: center ;
     font-family: montserratlight;
+   
     
 }
  .get-str{
+    
+    position: absolute;
+    left: 28%;
+    bottom: 50%;
     font-size: 10pt;
     color:#fff;
     background: var(--cafe);
     width: 140px;
-    height: 23px;
+    height: 25px;
     text-align: center;
     border-radius: 50px;
     font-family: montserratlight;
+}
+.puntos{
+    position: absolute;
+    left: 30%;
+    bottom: 43%;
+    width: 90px;
+    
 }
 .clear {
     clear: both;
