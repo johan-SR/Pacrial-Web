@@ -12,8 +12,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 @font-face {
     font-family: 'montserratextrabold';
     src: url('/fonts/montserrat-extrabold-demo.html');
@@ -39,60 +37,63 @@
 
 body{
     background: linear-gradient(to bottom, #EF9D1B,#FF7028);
-    
 }
-header{
-    font-family: montserratbold;
-}
+
 #container{
     width: 696px;
+    height: 440px;
     margin: 0 auto;
     background: #fff;
-    border-radius: 30px;
+    border-radius: 25px;
     box-shadow: 10px 0 24px rgba(0, 0, 0, 0.7);
 }
+
 #container .mainView{
     padding: 10px 0px 0px 45px;
-    background: url("Imagenes/onda.png") 0 0 no-repeat;
-    
+    background: url("Imagenes/onda.png") no-repeat;
 }
-#opciones{
+
+#nav{
     display: inline-block;
     text-align: right;
     width: 93%;
-    margin-top: 1px;
+    margin-top: 0px;
     line-height: 10px;
+    padding:0px 30px 0px 0px  ;
 }
 
-#opciones ul li {
+#nav ul li {
     display: inline;
-    padding: 10px 0px 0px 20px;
-
+    padding: 10px 0px 0px 30px;
 }
 
-#opciones ul li a {
-    font-size: 9.5pt;
+#nav ul li a {
+    font-size: 9pt;
     text-decoration: none;
     font-family: montserratbold;
     color: var(--cafe);
 } 
+
 .contenido-info{
     width: 216px;
     display: inline-block;
     float: left;
-    padding: 65px 0px 10px 5px;   
+    padding: 75px 0px 10px 0px;   
 }
+
 .contenido-imagen{
     width: 430px;
     display: inline-block;
-    z-index: -1;
-    
+    position: relative;
+    top: 15px;
+    right: 25px;
 }
+
 .contenido-imagen img {
-    width: 430px;
-    
-    
+    width: 460px;
+    position:relative;
 }
+
 .titulo {
     color: var(--cafe);
     font-size: 25pt;
@@ -101,41 +102,42 @@ header{
     text-align: center;
     font-family: montserratextrabold;
 }
+
 .subtitulo {
     font-size: 17.5pt;
     margin-top: 0px;
     text-align: center;
     font-family: montserratlight;
-    
 }
+
 .texto {
     font-size: 8.5pt;
     width: 238px;
     text-align: center ;
-    font-family: montserratlight;
-   
-    
+    font-family: montserratlight;   
 }
+
  .get-str{
     position: relative;
     left: 30px;
-    bottom: -5px;
-    font-size: 10pt;
+    bottom: -10px;
+    font-size: 12pt;
     color:#fff;
     background: var(--cafe);
-    width: 150px;
+    width: 160px;
     height: 25px;
     text-align: center;
     border-radius: 20px;
     font-family: montserratlight;
 }
+
 .puntos{
     position: relative;
-    left: 67px;
-    bottom: -20px;
-    width: 75px;
-    
+    left: 73px;
+    bottom: -30px;
+    width: 75px;  
 }
+
 .clear {
     clear: both;
 }
