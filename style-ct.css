@@ -50,7 +50,7 @@
   }
   
   #container .mainView{
-      padding: 10px 0px 0px 0px;
+      padding: 10px 0px 0px 5px;
       background: url("Imagenes/onda.png") no-repeat;
   }
   
@@ -76,10 +76,10 @@
   } 
   
   .contenido-info{
-      width: 256px;
+      width: 400px;
       display: block;
       margin: 0 auto;
-      padding-top: 30px;
+      padding-top: 40px;
       
          
   }
@@ -89,8 +89,9 @@
       display: block;
       position: relative;
       margin: 0 auto;
-      top: 40px;
+      top: 55px;
       right: 25px;
+      margin-left: 23%;
   }
   
   .contenido-imagen img {
@@ -103,7 +104,7 @@
       display: inline-block;
       float: left;
       width:35px;
-      background-color: #CAB2E5;
+      background-color: #FFA43D;
       border-radius: 15px;
       position: relative;
       margin-top: 120px;
@@ -114,22 +115,18 @@
     width: 22px;
     padding-top: 20px;
     border:0px solid;
-    margin-left: 5px;
+    margin-left: 6px;
   }
   #instagram{
     width: 22px;
     padding-top: 20px;
-    margin-left: 5px;
+    margin-left: 6px;
   }
   #twitter{
       width: 22px;
-      margin-left: 5px;
+      margin-left: 6px;
       padding-top: 10px;
   }
-  
-
-  
-
 
   .titulo {
       color: var(--cafe);
