@@ -81,7 +81,7 @@
       width: 296px;
       display: inline-block;
       float: right;
-      padding: 75px 30px 10px 0px;  
+      padding: 60px 30px 10px 0px;  
       
   }
 
@@ -91,7 +91,7 @@
     width: 430px;
     display: inline-block;
     position: relative;
-    bottom:330px;
+    bottom:300px;
   } 
  
   .contenido-imagen img {
@@ -118,8 +118,10 @@
 
 
   .leyenda{
-      margin: 25px;
+      margin: 0px;
+      margin-top: 35px;
       text-align: center;
+      width: 295px;
   }
 
   .derechos{

@@ -76,10 +76,10 @@
   } 
   
   .contenido-info{
-      width: 256px;
+      width: 400px;
       display: block;
       margin: 0 auto;
-      padding-top: 30px;
+      padding-top: 40px;
       
          
   }
@@ -89,8 +89,9 @@
       display: block;
       position: relative;
       margin: 0 auto;
-      top: 40px;
+      top: 55px;
       right: 25px;
+      margin-left: 23%;
   }
   
   .contenido-imagen img {
@@ -126,10 +127,6 @@
       margin-left: 6px;
       padding-top: 10px;
   }
-  
-
-  
-
 
   .titulo {
       color: var(--cafe);
