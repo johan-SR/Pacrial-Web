@@ -25,8 +25,8 @@
 }
 @font-face {
     font-family: 'montserratlight';
-    src: url('/fonts/montserrat-extrabold-demo.html');
-    src: url('/fonts/montserrat-extrabold-webfont.eot') format('embedded-opentype'),
+    src: url('/fonts/montserrat-light-demo.html');
+    src: url('/fonts/montserrat-light-webfont.eot') format('embedded-opentype'),
          url('/fonts/montserrat-light-webfont.woff2') format('woff2'),
          url('/fonts/montserrat-light-webfont.woff') format('woff'),
          url('/fonts/montserrat-light-webfont.ttf') format('truetype'),
@@ -36,16 +36,17 @@
 }
 
 body{
-    background: linear-gradient(to bottom, #EF9D1B,#FF7028);
+    background: #FF7028 linear-gradient(to bottom, #EF9D1B,#FF7028) no-repeat;
 }
 
 #container{
     width: 696px;
     height: 440px;
-    margin: 0 auto;
+    margin: 90px auto;
     background: #fff;
     border-radius: 25px;
     box-shadow: 10px 0 24px rgba(0, 0, 0, 0.7);
+    
 }
 
 #container .mainView{
@@ -131,11 +132,17 @@ body{
     font-family: montserratlight;
 }
 
-.puntos{
+
+
+.incons button{
+    background: var(--cafe);
     position: relative;
-    left: 73px;
-    bottom: -30px;
-    width: 75px;  
+    width: 12px;
+    height: 15px;
+    left: 50px;
+    bottom: -25px;
+    margin-left: 15px;
+    border-radius:80%;  
 }
 
 .clear {

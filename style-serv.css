@@ -62,11 +62,13 @@
       margin-top: 0px;
       line-height: 10px;
       padding:0px 30px 0px 0px  ;
+      
   }
   
   #nav ul li {
       display: inline;
       padding: 10px 0px 0px 30px;
+      
   }
   
   #nav ul li a {
@@ -80,33 +82,34 @@
       width: 296px;
       display: inline-block;
       float: right;
-      padding: 90px 40px 10px 0px;   
+      padding: 75px 30px 10px 0px;  
       
   }
 
   .contenido-info label{
     border: 0px solid;
     border-radius: 5px;
+    display:inline-block;
     background: #EF9D1B;
     font-family: montserratlight; 
     font-size: 10pt;
-    margin: 0px;
-    
+    top: 60px;
+    padding: 2px ;
   }
   
-  .imagen-servicios{
+  
+  .contenido-imagen{
     width: 430px;
     display: inline-block;
     position: relative;
-    top:-230px;
-  }
+    bottom:200px;
+  } 
  
-  .imagen-servicios img {
+  .contenido-imagen img {
     width: 300px;
     position:relative;
   }
 
-  
   
   .titulo {
       color: var(--cafe);
@@ -126,19 +129,21 @@
 
   .cash{
     position: relative;
+    display: inline-block;
     margin-top: 30px;
-    left: 25px;
+    left: 10px;
     width: 40px;  
   }
   .atm{
     position: relative;
-    left: 25px;
+    display: inline-block;
+    left: 10px;
     width: 40px;  
   }
   
   .pc{
     position: relative;
-    left: 25px;
+    display: inline-block;
     width: 40px;  
     z-index: 2;
   }
