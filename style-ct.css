@@ -50,7 +50,7 @@
   }
   
   #container .mainView{
-      padding: 10px 0px 0px 45px;
+      padding: 10px 0px 0px 10px;
       background: url("Imagenes/onda.png") no-repeat;
   }
   
@@ -100,13 +100,28 @@
   }
   
   .social-network{
-      top:50px;
+      display: inline-block;
+      float: left;
+      width:30px;
+      margin-top: 120px;
 
   }
-  #twitter{
-      
-      width: 25px;
+  #facebook{
+    width: 22px;
+    padding-top: 5px;
   }
+  #instagram{
+    width: 22px;
+    padding-top: 5px;
+  }
+  #twitter{
+      width: 22px;
+  }
+  
+
+  
+
+
   .titulo {
       color: var(--cafe);
       font-size: 25pt;
