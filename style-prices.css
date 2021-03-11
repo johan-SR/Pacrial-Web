@@ -1,0 +1,176 @@
+:root{
+    --cafe:#2D201B;
+  }
+  @font-face {
+      font-family: 'montserratbold';
+      src: url('/fonts/montserrat-bold-demo.html');
+      src: url('/fonts/montserrat-bold-webfont.eot') format('embedded-opentype'),
+           url('/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+           url('/fonts/montserrat-bold-webfont.woff') format('woff'),
+           url('/fonts/montserrat-bold-webfont.ttf') format('truetype'),
+           url('/fonts/montserrat-bold-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'montserratextrabold';
+      src: url('/fonts/montserrat-extrabold-demo.html');
+      src: url('/fonts/montserrat-extrabold-webfont.eot') format('embedded-opentype'),
+           url('/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+           url('/fonts/montserrat-extrabold-webfont.woff') format('woff'),
+           url('/fonts/montserrat-extrabold-webfont.ttf') format('truetype'),
+           url('/fonts/montserrat-extrabold-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'montserratlight';
+      src: url('/fonts/montserrat-light-demo.html');
+      src: url('/fonts/montserrat-light-webfont.eot') format('embedded-opentype'),
+           url('/fonts/montserrat-light-webfont.woff2') format('woff2'),
+           url('/fonts/montserrat-light-webfont.woff') format('woff'),
+           url('/fonts/montserrat-light-webfont.ttf') format('truetype'),
+           url('/fonts/montserrat-light-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  body{
+      background: #FF7028 linear-gradient(to bottom, #EF9D1B,#FF7028) no-repeat;
+  }
+  
+  #container{
+      width: 696px;
+      height: 440px;
+      margin: 90px auto;
+      background: #fff;
+      border-radius: 25px;
+      box-shadow: 10px 0 24px rgba(0, 0, 0, 0.7);
+      
+  }
+  
+  #container .mainView{
+      padding: 10px 0px 0px 30px;
+      background: url("Imagenes/onda.png") no-repeat;
+  }
+  
+  #nav{
+      display: inline-block;
+      text-align: right;
+      width: 93%;
+      margin-top: 0px;
+      line-height: 10px;
+      padding:0px 30px 0px 0px  ;
+  }
+  
+  #nav ul li {
+      display: inline;
+      padding: 10px 0px 0px 30px;
+  }
+  
+  #nav ul li a {
+      font-size: 9pt;
+      text-decoration: none;
+      font-family: montserratbold;
+      color: var(--cafe);
+  } 
+  
+.contenido{
+    display: inline-block;
+    width: 650px;
+    padding-top: 80px;
+}
+
+.beginner{
+    width: 180px;
+    float: left;
+    position: relative;
+    height: 260px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 30px;
+    background-color: #FFDDA6;
+     
+}
+
+.premium{
+    width: 180px;
+    position: relative;
+    float:left;
+    height: 260px;
+    border-radius:7px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    background-color: #FFC566;
+
+}
+
+
+.advanced{
+    width: 180px;
+    position: relative;
+    float:left; 
+    height: 260px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    background-color: #FFDDA6 ; 
+
+}
+  
+
+.titulo {
+      color: var(--cafe);
+      font-size: 16pt;
+      line-height: 40px;
+      margin-bottom: 1px;
+      text-align: center;
+      font-family: montserratextrabold;
+  }
+  
+p{
+    font-size: 15px;
+    color: var(--cafe);
+    text-align: center;
+    font-family: montserratlight;
+
+}
+
+.get-str{
+    
+    font-size: 11pt;
+    color:black;
+    background: #EF9D1B;
+    width: 120px;
+    height: 25px;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: montserratbold;
+}
+  
+#prof{
+    width: 40px;
+    height: 40px;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+#prem{
+    width: 45px;
+    height: 45px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+#adv{
+    width: 45px;
+    height: 45px;
+    padding-left: 70px;
+    padding-top: 15px;
+
+}
+  
+.clear {
+      clear: both;
+ }

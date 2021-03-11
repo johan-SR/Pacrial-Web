@@ -86,12 +86,11 @@
   }
 
  
-  
   .contenido-imagen{
     width: 430px;
     display: inline-block;
     position: relative;
-    bottom:300px;
+    bottom:310px;
   } 
  
   .contenido-imagen img {
@@ -102,33 +101,37 @@
   
   .titulo {
       color: var(--cafe);
-      font-size: 25pt;
+      font-size: 18pt;
       line-height: 40px;
       margin-bottom: 1px;
       text-align: center;
       font-family: montserratextrabold;
   }
   
-  .subtitulo {
-      font-size: 17.5pt;
-      margin-top: 0px;
-      text-align: center;
-      font-family: montserratlight;
-  }
-
-
+  .get-str{
+    
+    font-size: 8pt;
+    color:black;
+    background: #EF9D1B;
+    width: 100px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: montserratbold;
+}
   .leyenda{
       margin: 0px;
-      margin-top: 35px;
+      margin-top: 10px;
       text-align: center;
       width: 295px;
   }
 
   .derechos{
       src: url();
-      font-size: 10pt;
+      font-size: 8pt;
       text-align: right;
-      margin-top: 12%;
+      margin-top: 30px;
   }
 
   .clear {
