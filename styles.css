@@ -132,11 +132,17 @@ body{
     font-family: montserratlight;
 }
 
-.puntos{
+
+
+.incons button{
+    background: var(--cafe);
     position: relative;
-    left: 73px;
-    bottom: -30px;
-    width: 75px;  
+    width: 12px;
+    height: 15px;
+    left: 50px;
+    bottom: -25px;
+    margin-left: 15px;
+    border-radius:80%;  
 }
 
 .clear {
