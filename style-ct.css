@@ -1,0 +1,157 @@
+:root{
+    --cafe:#2D201B;
+  }
+  @font-face {
+      font-family: 'montserratbold';
+      src: url('/fonts/montserrat-bold-demo.html');
+      src: url('/fonts/montserrat-bold-webfont.eot') format('embedded-opentype'),
+           url('/fonts/montserrat-bold-webfont.woff2') format('woff2'),
+           url('/fonts/montserrat-bold-webfont.woff') format('woff'),
+           url('/fonts/montserrat-bold-webfont.ttf') format('truetype'),
+           url('/fonts/montserrat-bold-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'montserratextrabold';
+      src: url('/fonts/montserrat-extrabold-demo.html');
+      src: url('/fonts/montserrat-extrabold-webfont.eot') format('embedded-opentype'),
+           url('/fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+           url('/fonts/montserrat-extrabold-webfont.woff') format('woff'),
+           url('/fonts/montserrat-extrabold-webfont.ttf') format('truetype'),
+           url('/fonts/montserrat-extrabold-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'montserratlight';
+      src: url('/fonts/montserrat-light-demo.html');
+      src: url('/fonts/montserrat-light-webfont.eot') format('embedded-opentype'),
+           url('/fonts/montserrat-light-webfont.woff2') format('woff2'),
+           url('/fonts/montserrat-light-webfont.woff') format('woff'),
+           url('/fonts/montserrat-light-webfont.ttf') format('truetype'),
+           url('/fonts/montserrat-light-webfont.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  body{
+      background: #FF7028 linear-gradient(to bottom, #EF9D1B,#FF7028) no-repeat;
+  }
+  
+  #container{
+      width: 696px;
+      height: 440px;
+      margin: 90px auto;
+      background: #fff;
+      border-radius: 25px;
+      box-shadow: 10px 0 24px rgba(0, 0, 0, 0.7);
+      
+  }
+  
+  #container .mainView{
+      padding: 10px 0px 0px 45px;
+      background: url("Imagenes/onda.png") no-repeat;
+  }
+  
+  #nav{
+      display: inline-block;
+      text-align: right;
+      width: 93%;
+      margin-top: 0px;
+      line-height: 10px;
+      padding:0px 30px 0px 0px  ;
+  }
+  
+  #nav ul li {
+      display: inline;
+      padding: 10px 0px 0px 30px;
+  }
+  
+  #nav ul li a {
+      font-size: 9pt;
+      text-decoration: none;
+      font-family: montserratbold;
+      color: var(--cafe);
+  } 
+  
+  .contenido-info{
+      width: 216px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 30px;
+      
+         
+  }
+  
+  .contenido-imagen{
+      width: 430px;
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      top: 40px;
+      right: 25px;
+  }
+  
+  .contenido-imagen img {
+      width: 500px;
+      right:20px;
+      position:relative;
+  }
+  
+  .social-network{
+      top:50px;
+
+  }
+  #twitter{
+      
+      width: 25px;
+  }
+  .titulo {
+      color: var(--cafe);
+      font-size: 25pt;
+      line-height: 40px;
+      margin-bottom: 1px;
+      text-align: center;
+      font-family: montserratextrabold;
+  }
+  
+  .subtitulo {
+      font-size: 17.5pt;
+      margin-top: 0px;
+      text-align: center;
+      font-family: montserratlight;
+  }
+  
+  .texto {
+      font-size: 8.5pt;
+      width: 238px;
+      text-align: center ;
+      font-family: montserratlight;   
+  }
+  
+   .get-str{
+      position: relative;
+      left: 30px;
+      bottom: -10px;
+      font-size: 12pt;
+      color:#fff;
+      background: var(--cafe);
+      width: 160px;
+      height: 25px;
+      text-align: center;
+      border-radius: 20px;
+      font-family: montserratlight;
+  }
+  
+  .puntos{
+      position: relative;
+      left: 73px;
+      bottom: -30px;
+      width: 75px;  
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
