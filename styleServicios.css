@@ -39,6 +39,7 @@
       background: #FF7028 linear-gradient(to bottom, #EF9D1B,#FF7028) no-repeat;
   }
   
+  
   #container{
       width: 696px;
       height: 440px;
@@ -52,7 +53,6 @@
   #container .mainView{
       padding: 10px 0px 0px 45px;
       background: url("Imagenes/onda.png") no-repeat;
-     
   }
   
   #nav{
@@ -94,7 +94,6 @@
     
   }
   
-  
   .imagen-servicios{
     width: 430px;
     display: inline-block;
@@ -106,6 +105,8 @@
     width: 300px;
     position:relative;
   }
+
+  
   
   .titulo {
       color: var(--cafe);
@@ -122,6 +123,7 @@
       text-align: center;
       font-family: montserratlight;
   }
+
   .cash{
     position: relative;
     margin-top: 30px;
@@ -133,10 +135,12 @@
     left: 25px;
     width: 40px;  
   }
+  
   .pc{
     position: relative;
     left: 25px;
     width: 40px;  
+    z-index: 2;
   }
 
   .clear {
